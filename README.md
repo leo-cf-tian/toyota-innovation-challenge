@@ -20,7 +20,7 @@ Images of the white and red vehicle body frames.
 
 Our solution involved image labelling and processing on [Roboflow](https://roboflow.com/) as well as transfer learning by training [Ultralytic's YOLOv8 model](https://docs.ultralytics.com/).
 
-View our [trained model on Google Colab](https://colab.research.google.com/drive/1VLiiRDIPV27SUa_jskTNK7KiPJ_vsEvu?usp=sharing) or view the [source code](./ToyotaInnovationChallenge.ipynb).
+View our [trained model on Google Colab](https://colab.research.google.com/drive/1VLiiRDIPV27SUa_jskTNK7KiPJ_vsEvu?usp=sharing) or view the [source code](./ToyotaInnovationChallenge.ipynb) (note that it will not work as the Google Colab library is requried).
 
 You can also view our [presentation during the event](./Innovation_Challenge_Presentation.pptx).
 
