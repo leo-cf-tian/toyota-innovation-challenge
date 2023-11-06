@@ -36,14 +36,13 @@ You can also view our [presentation during the event](./Innovation_Challenge_Pre
 
 ### Data Collection and Labelling
 
-Over the challenge, we collected 150+ images and 500+ datapoints and labelled them in Roboflow. We used data augmentation to triple the amount of data samples.
+Over the challenge, we collected 150+ images and 500+ datapoints and labelled them in Roboflow. We used data augmentation to triple the amount of data samples. We applied Adaptive Equalization to the images before training the model to help with the low contrast in some images (dark sticker on dark frame).
 
 <img src="./images/roboflow.png">
 
 ### Model Training
 
-Transfer learning was done on the Ultralytics YOLOv8 model, yielding the corresponding confusion matrix.
-
+Transfer learning was done on the Ultralytics YOLOv8 model, yielding the corresponding confusion matrix. 
 <img src="./images/confusion_matrix.png">
 
 Here is a demonstration of our model classifying an image during our presentation.
